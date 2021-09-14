@@ -16,18 +16,16 @@
 	padding: 0 25px;
 }
 
-.contact h3{
+.contact h3 {
 	display: flex;
 	justify-content: center;
-	
 }
 
 .about_me {
 	padding: 25px 25px;
-	
 }
 
-.about_me h3{
+.about_me h3 {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 10px;
@@ -35,17 +33,13 @@
 
 /* HOBBIES */
 
-.hobbies{
-	
-}
 .hobbies h3 {
 	padding: 10px 25px;
-	
 	display: flex;
 	justify-content: center;
 }
 
-.hobbies_images{
+.hobbies_images {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 30px;
