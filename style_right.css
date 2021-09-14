@@ -12,10 +12,6 @@
 	margin-bottom: 50px;
 }
 
-.point_before::before {
-	content: '\2022';
-}
-
 /*	EDUCATION	*/
 
 #education {
@@ -32,8 +28,10 @@
 	padding-left: 10px;
 	font-weight: bold;
 }
-#education p{
-	margin-bottom: 3px;
+#education li{
+	margin-bottom: 10px;
+	margin-left: 15px;
+	list-style-type:disc;
 }
 
 /*	EXPERIENCE	*/
@@ -53,51 +51,41 @@
 	font-weight: bold;
 }
 
-#experience p{
-	margin-bottom: 4px;
+#experience li{
+	margin-bottom: 10px;
+	margin-left: 15px;
+	list-style-type: disc;
 }
 
-/*	SKILLS	*/
+/* REFERENCES */
 
-#skills{
+#references{
 	margin-bottom: 40px;
 }
 
-#skills .title {
+#references img{
+	height: 50px;
+}
+
+#references .title {
 	display: flex;
 	margin-bottom: 20px;
 }
 
-#skills .title .text {
+#references .title .text {
 	align-self: center;
 	padding-left: 10px;
 	font-weight: bold;
 }
 
-.cool {
-	background-color: #fff;
-	border: 2px solid #ccc;
-	width: 300px;
-	height: 15px;
-}
-
-.one_skill{
-	margin-top: 20px;
-}
-.inner {
-	height: 100%;
-	background-color:  orange;
-}
-
-/*	LANGUAGE	*/
-
-#language .title {
+#references .people_container{
 	display: flex;
-	margin-bottom: 20px;
+	width: 100%;
 }
 
-#language .title .text {
-	align-self: center;
-	padding-left: 10px;
-	font-weight: bold;
+#references .person_1{
+	width: 50%;
+}
+#references .person_2{
+	width: 50%;
 }

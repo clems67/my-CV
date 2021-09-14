@@ -6,7 +6,6 @@
 	margin: 30px auto 30px;
 }
 
-
 #section_left {
 	float: left;
 	width: 280px;
@@ -15,4 +14,51 @@
 
 .contact {
 	padding: 0 25px;
+}
+
+.contact h3{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.about_me {
+	padding: 25px 25px;
+	
+}
+
+.about_me h3{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+/* HOBBIES */
+
+.hobbies{
+	
+}
+.hobbies h3 {
+	padding: 10px 25px;
+	
+	display: flex;
+	justify-content: center;
+}
+
+.hobbies_images{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.basketball_image {
+	height: 50px;
+}
+
+.weightlifting_image {
+	height: 50px;
+}
+
+.badminton_image {
+	height: 50px;
 }
