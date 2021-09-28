@@ -1,7 +1,9 @@
 #photo {
 	display: flex;
-	height: 200px;
-	border-radius: 70px;
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%/*70px*/;
 	justify-content: center;
 	margin: 30px auto 30px;
 }
@@ -12,31 +14,60 @@
 	background: #0bb5f4;
 }
 
-.contact {
-	padding: 0 25px;
+.contact{
+	margin-bottom: 20px;
+}
+
+.contact p{
+	margin: 0 25px;
+}
+
+.contact .title{
+	width: 100%;
+	height: fit-content;
+	background-color: black;
+	margin-bottom: 20px;
 }
 
 .contact h3 {
+	color: white;
 	display: flex;
 	justify-content: center;
 }
 
 .about_me {
-	padding: 25px 25px;
+	margin-bottom: 20px;
 }
 
-.about_me h3 {
+.about_me p{
+	padding: 0 25px;
+}
+
+.about_me .title {
 	display: flex;
 	justify-content: center;
+	background-color: black;
 	margin-bottom: 10px;
+}
+
+.about_me h3{
+	color: white;
 }
 
 /* HOBBIES */
 
+
+
 .hobbies h3 {
-	padding: 10px 25px;
+	margin: 20px 25px;
 	display: flex;
 	justify-content: center;
+	color: white;
+}
+
+.hobbies .title{
+	background-color: black;
+	height: fit-content;
 }
 
 .hobbies_images {
@@ -46,13 +77,14 @@
 }
 
 .basketball_image {
-	height: 50px;
+	height: 40px;
 }
 
 .weightlifting_image {
-	height: 50px;
+	height: 40px;
+	margin: 0 15px;
 }
 
 .badminton_image {
-	height: 50px;
+	height: 40px;
 }

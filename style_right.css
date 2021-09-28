@@ -9,7 +9,21 @@
 }
 
 #title {
-	margin-bottom: 50px;
+margin-bottom: 50px;
+}
+
+#bar_title{
+	height: 2.5px;
+	width: 100px;
+	background-color: black;
+	margin-top: 5px;
+}
+
+.bar{
+	height: 2.5px;
+	width: fit-content;
+	background-color: black;
+	margin-bottom: 15px;
 }
 
 /*	EDUCATION	*/
@@ -20,10 +34,10 @@
 
 #education .title {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
-#education .title .text {
+#education .title .sub_title_text {
 	align-self: center;
 	padding-left: 10px;
 	font-weight: bold;
@@ -42,10 +56,10 @@
 
 #experience .title {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
-#experience .title .text {
+#experience .title .sub_title_text {
 	align-self: center;
 	padding-left: 10px;
 	font-weight: bold;
@@ -55,13 +69,17 @@
 	margin-bottom: 10px;
 	margin-left: 15px;
 	list-style-type: disc;
+	display: flex;
+	
+}
+
+#experience li strong{
+	flex-shrink:0;
+	padding-right: 5px;
+	justify-content: space-around;
 }
 
 /* REFERENCES */
-
-#references{
-	margin-bottom: 40px;
-}
 
 #references img{
 	height: 50px;
@@ -69,10 +87,10 @@
 
 #references .title {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
-#references .title .text {
+#references .title .sub_title_text {
 	align-self: center;
 	padding-left: 10px;
 	font-weight: bold;
