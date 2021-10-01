@@ -66,17 +66,19 @@ margin-bottom: 50px;
 }
 
 #experience li{
-	margin-bottom: 10px;
-	margin-left: 15px;
-	list-style-type: disc;
-	display: flex;
-	
-}
+	margin-bottom: 20px;
+	display: grid;
+  grid-template-columns: 10px 80px auto;
+	}
 
 #experience li strong{
 	flex-shrink:0;
 	padding-right: 5px;
-	justify-content: space-around;
+}
+
+.point::before{
+	content: '\2022';
+	font-weight: bold;
 }
 
 /* REFERENCES */
