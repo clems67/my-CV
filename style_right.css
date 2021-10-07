@@ -9,17 +9,17 @@
 }
 
 #title {
-margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
-#bar_title{
+#bar_title {
 	height: 2.5px;
 	width: 100px;
 	background-color: black;
 	margin-top: 5px;
 }
 
-.bar{
+.bar {
 	height: 2.5px;
 	width: fit-content;
 	background-color: black;
@@ -42,15 +42,16 @@ margin-bottom: 50px;
 	padding-left: 10px;
 	font-weight: bold;
 }
-#education li{
+
+#education li {
 	margin-bottom: 10px;
 	margin-left: 15px;
-	list-style-type:disc;
+	list-style-type: disc;
 }
 
 /*	EXPERIENCE	*/
 
-#experience{
+#experience {
 	margin-bottom: 40px;
 }
 
@@ -65,25 +66,32 @@ margin-bottom: 50px;
 	font-weight: bold;
 }
 
-#experience li{
+#experience li {
 	margin-bottom: 20px;
 	display: grid;
-  grid-template-columns: 10px 80px auto;
-	}
+	grid-template-columns: 10px 80px auto;
+}
 
-#experience li strong{
-	flex-shrink:0;
+#experience li strong {
+	flex-shrink: 0;
 	padding-right: 5px;
 }
 
-.point::before{
+.point::before {
 	content: '\2022';
+	font-weight: bold;
+}
+
+.title_li {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
 	font-weight: bold;
 }
 
 /* REFERENCES */
 
-#references img{
+#references img {
 	height: 50px;
 }
 
@@ -98,14 +106,15 @@ margin-bottom: 50px;
 	font-weight: bold;
 }
 
-#references .people_container{
+#references .people_container {
 	display: flex;
 	width: 100%;
 }
 
-#references .person_1{
+#references .person_1 {
 	width: 50%;
 }
-#references .person_2{
+
+#references .person_2 {
 	width: 50%;
 }
