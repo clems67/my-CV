@@ -1,6 +1,7 @@
 #section_right {
-	padding: 25px;
-	padding-top: 50px;
+	margin: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #my_name {
@@ -15,14 +16,14 @@
 #bar_title {
 	height: 2.5px;
 	width: 100px;
-	background-color: black;
+	background-color: #FECA07;
 	margin-top: 5px;
 }
 
 .bar {
 	height: 2.5px;
 	width: fit-content;
-	background-color: black;
+	background-color: #FECA07;
 	margin-bottom: 15px;
 }
 
@@ -46,7 +47,29 @@
 #education li {
 	margin-bottom: 10px;
 	margin-left: 15px;
-	list-style-type: disc;
+	display: grid;
+	grid-template-columns: 10px 130px auto;
+}
+
+.education_date{
+	font-weight: bold;
+}
+
+.education_place{
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.formation_name{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.education_description{
+	font-weight: normal;
+	margin-top: 5px;
 }
 
 /*	EXPERIENCE	*/
@@ -69,12 +92,11 @@
 #experience li {
 	margin-bottom: 20px;
 	display: grid;
-	grid-template-columns: 10px 80px auto;
+	grid-template-columns: 10px 160px auto;
 }
 
-#experience li strong {
-	flex-shrink: 0;
-	padding-right: 5px;
+.experience_date{
+	font-weight:bold;
 }
 
 .point::before {
@@ -82,11 +104,19 @@
 	font-weight: bold;
 }
 
-.title_li {
+.company_name {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 5px;
 	font-weight: bold;
+}
+
+.position_name{
+	margin-bottom: 5px;
+}
+
+.experience_place{
+	font-weight: normal;
 }
 
 /* REFERENCES */

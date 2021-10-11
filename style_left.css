@@ -11,7 +11,8 @@
 #section_left {
 	float: left;
 	width: 280px;
-	background: #0bb5f4;
+	background: #FECA07;
+	position: relative;
 }
 
 .contact{
@@ -25,7 +26,7 @@
 .contact .title{
 	width: 100%;
 	height: fit-content;
-	background-color: black;
+	background-color: #404040;
 	margin-bottom: 20px;
 }
 
@@ -46,7 +47,7 @@
 .about_me .title {
 	display: flex;
 	justify-content: center;
-	background-color: black;
+	background-color: #404040;
 	margin-bottom: 10px;
 }
 
@@ -54,19 +55,26 @@
 	color: white;
 }
 
+.title h3{
+	color: #FECA07;
+}
+
 /* HOBBIES */
 
-
+.hobbies{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 
 .hobbies h3 {
 	margin: 20px 25px;
 	display: flex;
 	justify-content: center;
-	color: white;
 }
 
 .hobbies .title{
-	background-color: black;
+	background-color: #404040;
 	height: fit-content;
 }
 
