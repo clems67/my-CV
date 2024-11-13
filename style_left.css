@@ -28,6 +28,12 @@
   margin: 7px 5px;
 }
 
+.tech_title{
+	display: flex; 
+	justify-content: center; 
+	font-size: smaller;
+}
+
 .dot {
   height: 15px;
   width: 15px;
