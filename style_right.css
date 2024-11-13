@@ -1,0 +1,103 @@
+#section_right {
+	padding: 25px;
+	padding-top: 50px;
+}
+
+#my_name {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#title {
+	margin-bottom: 50px;
+}
+
+.point_before::before {
+	content: '\2022';
+}
+
+/*	EDUCATION	*/
+
+#education {
+	margin-bottom: 40px;
+}
+
+#education .title {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#education .title .text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+#education p{
+	margin-bottom: 3px;
+}
+
+/*	EXPERIENCE	*/
+
+#experience{
+	margin-bottom: 40px;
+}
+
+#experience .title {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#experience .title .text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#experience p{
+	margin-bottom: 4px;
+}
+
+/*	SKILLS	*/
+
+#skills{
+	margin-bottom: 40px;
+}
+
+#skills .title {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#skills .title .text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.cool {
+	background-color: #fff;
+	border: 2px solid #ccc;
+	width: 300px;
+	height: 15px;
+}
+
+.one_skill{
+	margin-top: 20px;
+}
+.inner {
+	height: 100%;
+	background-color:  orange;
+}
+
+/*	LANGUAGE	*/
+
+#language .title {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#language .title .text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}

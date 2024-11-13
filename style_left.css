@@ -1,0 +1,45 @@
+#photo {
+  display: flex;
+  height: 200px;
+  border-radius: 70px;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+#section_left {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background: #164360;
+  color: white;
+}
+
+.left_title {
+  display: flex;
+  justify-content: center;
+  border-style: solid none;
+  margin: 20px 0 10px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px 5px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.dot_white {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 100%;
+  margin: 0 4px;
+}
