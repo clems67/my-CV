@@ -12,6 +12,7 @@
   width: 280px;
   background: #164360;
   color: white;
+  justify-content: space-between;
 }
 
 .left_title {
@@ -36,6 +37,10 @@
 	display: flex; 
 	justify-content: center; 
 	font-size: smaller;
+}
+
+.tech_section{
+  margin-top: 20px;
 }
 
 .dot {
